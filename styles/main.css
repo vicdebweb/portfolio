@@ -219,3 +219,53 @@ a:hover {
   color: var(--color-accent);
   border-bottom: 2px solid var(--color-accent);
 }
+
+/* Added Menu Button */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  color: var(--color-primary);
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .main-nav ul {
+    display: none;
+  }
+
+  .main-nav .nav-links.active {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 4.5rem;
+    right: 2rem;
+    background-color: #111;
+    padding: 1rem 1.5rem;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 209, 0.2);
+  }
+}
+
+/* Corrected Skills icons */
+@media (max-width: 768px) {
+  .skills-list {
+    /* Pasa de 3 columnas a 2 columnas en móvil */
+    grid-template-columns: repeat(2, 1fr);
+    /* Ajusta un poco el gap si quieres más separación */
+    gap: 1.5rem 1rem;
+    /* Asegura que esté centrado */
+    margin: 1rem auto;
+  }
+}
