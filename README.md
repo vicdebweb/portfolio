@@ -18,6 +18,7 @@ _(If the site is not active yet, it will be live shortly after GitHub Pages fini
 ├── index.html # Home
 ├── about.html # Background, skills & CV
 ├── projects.html # Placeholder for future projects
+├── script.js # JavaScript for mobile “hamburger” menu toggle
 │
 ├── assets/ # Profile photo, favicon, CV
 ├── styles/main.css # Custom styling
