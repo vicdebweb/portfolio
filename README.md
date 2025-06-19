@@ -1,6 +1,6 @@
 # 💻 Víctor – Front-End Developer Portfolio
 
-This is my personal portfolio built entirely with **HTML** and **CSS**.
+This is my personal portfolio built entirely with **HTML**, **CSS** and a little of **JS**.
 
 ---
 
