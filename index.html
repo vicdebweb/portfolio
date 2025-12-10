@@ -4,17 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="Victor Alcazar">
+    <meta name="author" content="Víctor Alcázar" />
+    <meta name="description" content="Víctor Alcázar – Junior Web Developer. Portfolio with projects in HTML, CSS, JavaScript, PHP, MySQL and WordPress." />
     <title>Víctor – Web Developer</title>
     <link rel="icon" href="/assets/favicon.png" type="image/png">
-    <!-- Tipografía -->
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- Estilos -->
     <link rel="stylesheet" href="styles/main.css">
-    <!-- Script -->
     <script src="script.js"></script>
-
 </head>
 
 <body>
@@ -24,30 +20,57 @@
                 <img src="assets/victor.jpg" alt="Víctor" class="profile-pic" />
             </div>
             <h1 class="name">Hi, I'm Víctor</h1>
-            <p class="tagline">Junior Web Developer focused on accessible, efficient and creative websites.</p>
+            <p class="tagline">
+                Junior Web Developer focused on accessible, responsive and efficient websites.
+            </p>
 
             <nav class="main-nav">
                 <button class="menu-toggle" aria-label="Toggle menu">☰</button>
                 <ul class="nav-links">
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
 
-
+            <div class="hero-actions" style="margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+                <a href="projects.html" class="btn">View Projects</a>
+                <a href="about.html" class="btn">About &amp; Skills</a>
+                <a href="assets/cv_victor_alcazar.pdf" class="btn" download>Download Resume (PDF)</a>
+                <a href="mailto:alcazar.caravaca.victor@gmail.com" class="btn">Contact me</a>
+            </div>
         </div>
     </header>
+
+    <main>
+        <section class="about-section">
+            <div class="container">
+                <h2>Junior Web Developer</h2>
+                <p>
+                    I’m a Junior Web Developer with a background in healthcare, focused on building accessible and responsive
+                    websites using HTML, CSS, JavaScript, PHP, MySQL and WordPress.
+                </p>
+                <p>
+                    I’m currently looking for my first opportunity to contribute to real-world projects, keep learning from
+                    experienced developers and grow within a team.
+                </p>
+                <p>
+                    On this site you can explore some of my projects and learn more about my journey, skills and the technologies
+                    I work with.
+                </p>
+            </div>
+        </section>
+    </main>
 
     <footer class="site-footer">
         <div class="container">
             <p>&copy; 2025 Víctor · Web Developer</p>
             <p>
-                <a href="https://www.linkedin.com/in/alcazarvictor" target="_blank">LinkedIn</a> ·
-                <a href="https://github.com/vicdebweb" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/alcazarvictor" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+                <a href="https://github.com/vicdebweb" target="_blank" rel="noopener noreferrer">GitHub</a>
             </p>
         </div>
     </footer>
-
 </body>
 
 </html>
